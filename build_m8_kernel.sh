@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Path to build your kernel
-  k=~/kernel/m8gpe50
+  k=~/m8
 # Directory for the any kernel updater
   t=$k/packages
 # Date to add to zip
@@ -27,7 +27,7 @@
   m=$k/out/$c/system/lib/modules
   z=$c-$today
 
-TOOLCHAIN=/home/forrest/kernel/linaro-4.9.2/bin/arm-cortex_a15-linux-gnueabihf-
+TOOLCHAIN=/home/hate/arm-eabi-4.6/bin/arm-eabi-
 export ARCH=arm
 export SUBARCH=arm
 
