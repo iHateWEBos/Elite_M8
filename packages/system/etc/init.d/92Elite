@@ -1,7 +1,0 @@
-#!/system/bin/sh
-
-#fstrim
-fstrim -v /cache;
-fstrim -v /data;
-
-exit 0
